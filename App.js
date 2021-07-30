@@ -59,6 +59,26 @@ export default function App() {
           alignItems: 'center',
           flexDirection: 'row',
           position: 'absolute',
+          top: 55,
+        }}
+      > 
+        <Text
+          style={{
+            fontWeight: 'bold',
+            fontSize: 19,
+            backgroundColor: 'rgba(200,200,200,0.8)',
+            paddingHorizontal: 10,
+            borderRadius: 5
+          }}
+        >
+          {markers.length}
+        </Text>
+      </View>
+      <View
+        style={{
+          alignItems: 'center',
+          flexDirection: 'row',
+          position: 'absolute',
           bottom: 25,
         }}
       >
@@ -97,7 +117,7 @@ export default function App() {
             flexDirection: 'column'
           }}
         >
-          <Text style={{ fontSize: 9 }} >How many markers you want to plot?</Text>
+          <Text style={{ fontSize: 9 }} >How many markers you want to add?</Text>
           <TextInput 
             style={{
               color: 'red',
@@ -174,7 +194,7 @@ export default function App() {
               fontWeight: 'bold'
             }}
           >
-            CLICK ON BACKGROUND TO BACK
+            CLICK ON BACKGROUND TO GO BACK
           </Text>
 
           <View
