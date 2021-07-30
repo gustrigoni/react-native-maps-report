@@ -211,7 +211,7 @@ export default function App() {
               flexDirection: 'column'
             }}
           >
-            <Text style={{ fontSize: 10 }}>What type of marker do you want to use?</Text>
+            <Text style={{ fontSize: 10 }}>Which type of marker do you want to use?</Text>
             <View
               style={{
                 marginTop: 5,
